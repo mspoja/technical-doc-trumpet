@@ -5,8 +5,8 @@
     min-width: 100px;
     border-width: 4px;
 }
-#navbar a{
-    display:block;
+#navbar a {
+    display: block;
     padding: 10px;
     background-color:aqua;
 }
