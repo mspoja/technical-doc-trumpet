@@ -1,0 +1,17 @@
+#navbar {
+    position: fixed;
+    margin-top: 0px;
+    margin-left: 0px;
+    min-width: 100px;
+    border-width 4px;
+}
+#navbar a{
+    display:block;
+    padding: 10px;
+    background-color:aqua;
+}
+* {
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
