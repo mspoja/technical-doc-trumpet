@@ -24,8 +24,15 @@
     cursor:pointer;
     max-width: 100%;
 }
-.nav-link hover {
+.nav-link:hover {
+    font-weight: bold;
+    color:burlywood;
+}
+.nav-link:link {
     color:black;
+}
+.nav-link:visited {
+    color: black;
 }
 #navbar ul {
     list-style-type: none;
