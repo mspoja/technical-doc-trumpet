@@ -37,3 +37,12 @@
 main {
     margin-left: 300px;
 }
+.main-section header{
+    font-weight: bolder;
+    background-color: gray;
+    max-width: 25%;
+    font-size: 20px;
+}
+#hand {
+    font-weight: bold;
+}
