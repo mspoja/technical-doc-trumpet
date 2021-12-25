@@ -1,18 +1,19 @@
 #navbar {
     position: fixed;
     margin-top: 0px;
-    min-width: 100px;
+    min-width: 75px;
     border-width: 2px;
-    border-style: solid;
+    border-right-style: solid;
     border-color: gray;
     height: 100%;
-    background-color: rgb(167, 167, 167);
-    max-width: 100%;
+    background-color: rgb(238, 238, 238);
+    max-width: 75%;
     overflow-y: auto;
 }
 #navbar header {
     font-size: 25px;
     text-align: center;
+    margin-top: 10px;
 }
 #navbar a {
     display:block;
@@ -22,8 +23,9 @@
     border-top-color: gray;
     cursor:pointer;
     max-width: 100%;
-    text-align: center;
-
+}
+.nav-link hover {
+    color:black;
 }
 #navbar ul {
     list-style-type: none;
@@ -32,17 +34,34 @@
 }
 * {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(238, 238, 238);
     
 }
 main {
     margin-left: 300px;
+    font-size: 15px;
 }
 .main-section header{
     font-weight: bolder;
-    background-color: gray;
-    max-width: 25%;
+    background-color: rgb(214, 214, 214);
+    max-width: 100%;
     font-size: 20px;
 }
 #hand {
     font-weight: bold;
+}
+img {
+    max-height: 100%;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+
+}
+@media screen and (max-width: 600px) {
+    #navbar {
+        display: none;
+    }
+    #main-doc {
+        margin-left: 2px;
+    }
 }
