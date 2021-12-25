@@ -64,6 +64,15 @@ img {
     width: auto;
 
 }
+.main-section a:hover {
+    color: rgb(201, 165, 119);
+}
+.main-section a:link {
+    color: rgb(82, 82, 82);
+}
+.main-section a:visited{
+    color:rgb(201, 165, 119);
+}
 @media screen and (max-width: 600px) {
     #navbar {
         display: none;
